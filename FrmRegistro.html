@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Formulario</title>
+    <link rel="stylesheet" href="EstiloRegistro.css">
+    <script src="Funcion.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,800,900" rel="stylesheet">
+</head>
+
+<body background="D:\BJB CERTUS\DESARROLADOR CON FLUTTER\SESION 15\Actividad\Prueba2\Img\fondo.png">
+    <table>
+        <tr>
+            <td>
+                <table class="TBHeader">
+                    <tr>
+                        <td>
+                            <img src="D:\BJB CERTUS\DESARROLADOR CON FLUTTER\TRABAJO FINAL\Proyecto Web\Img\BJBLOGO.png"
+                                alt="BJBLOGO" width="160" height="50" align="left">
+                        </td>
+                        <td>
+                            <img src="D:\BJB CERTUS\DESARROLADOR CON FLUTTER\SESION 15\Actividad\Prueba2\Img\LogoCT.png"
+                                alt="BJBLOGO" width="160" height="50" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <td>
+                            <form action="">
+                                <div class="form">
+                                    <h1>Registre su Visita</h1>
+                                    <div class="grupo">
+                                        <input type="text" name="" id="TxtNombre" required><span class="barra"></span>
+                                        <label>Nombre</label>
+                                    </div>
+                                    <div class="grupo">
+                                        <input type="text" name="" id="TxtMail" required><span class="barra"></span>
+                                        <label>Email</label>
+                                    </div>
+                                    <div class="grupo">
+                                        <input type="number" name="" id="TxtNum" required><span class="barra"></span>
+                                        <label>Numero Movil</label>
+                                    </div>
+                                    <div class="grupo">
+                                        <textarea name="" id="TxtMsj" rows="3" required></textarea><span class="barra"></span>
+                                        <label>Mensaje</label>
+                                    </div>
+                                    <form method="post" action="">
+                                        <button type="submit" onclick="Captura()">Guardar</button>
+                                    </form>
+                                </div>
+                            </form>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
